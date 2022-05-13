@@ -25,11 +25,11 @@ function App() {
         <button className='row3' onClick={() => setCount(count + '8')}>8</button>
         <button className='row3' onClick={() => setCount(count + '9')}>9</button>
         <br/>
-        <button className='clearButton' onClick={() => setCount('')}>Clear</button>
+        <button className='clearButton' onClick={() => setCount('')}>🔄</button>
         <button className='row4' onClick={() => setCount(count + '0')}>0</button>
-        <button className='row4' onClick={() => setIsLoggedIn(count === passWord)}>Accept</button>
+        <button className='row4' onClick={() => setIsLoggedIn(count === passWord)}>✅</button>
         <br/>
-        <button className='row3' onClick={() => setCount(count.slice(0, -1))}>Back Space</button>
+        <button className='row3' onClick={() => setCount(count.slice(0, -1))}>🔙</button>
         <br/>
         </body>
       </header>
