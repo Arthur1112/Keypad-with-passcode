@@ -28,6 +28,9 @@ function App() {
         <button className='clearButton' onClick={() => setCount('')}>Clear</button>
         <button className='row4' onClick={() => setCount(count + '0')}>0</button>
         <button className='row4' onClick={() => setIsLoggedIn(count === passWord)}>Accept</button>
+        <br/>
+        <button className='row3' onClick={() => setCount(count.slice(0, -1))}>Back Space</button>
+        <br/>
         </body>
       </header>
     </div>
